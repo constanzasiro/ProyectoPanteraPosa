@@ -5,4 +5,6 @@
 
 <p> Para poder utilizar esta pagina, será necesario ejecutar npm init </p>
 
+Saludos!
+
 
