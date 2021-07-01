@@ -1,0 +1,498 @@
+ 
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: rgb(33, 14, 138); 
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body{
+        background-color: rgb(33, 14, 138); 
+    }
+}
+
+
+
+.titulo{
+    color: rgb(33, 14, 138);
+    font-size: 65px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    background-color:rgb(224, 144, 184) ;
+}
+
+.subtitulo{
+    padding: 20px;
+    color: rgb(224, 144, 184);
+    font-size: 40px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+   
+
+}
+
+
+
+
+
+
+.links{
+    display: flex;
+    justify-content: flex;
+}
+
+.logo-menu-container{
+    display: flex;
+    justify-self: flex-start;
+    border-radius: 50px; 
+    width: 50px; 
+    height: 50px; 
+
+}
+
+
+.iniciar-sesion { 
+    margin-right: 15px;
+    color: rgb(224, 144, 184);
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* float: right; */
+   
+}
+
+/* agrego icono mail */
+.iniciar-sesion:hover::after{
+    content: '📧';
+}
+
+.carrito{
+    color: rgb(224, 144, 184);
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* float: right; */
+   
+}
+
+/* agrego icono carrito */
+.carrito:hover:after{
+    content:'🛒';
+}
+
+.menu-container-2{
+    display: flex;
+    /* display flex lo que hace es habilitar los poderes de flexbox */
+    justify-content: center;
+    /* me permite alinear horizontalmente */
+
+
+}
+
+
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+        /* margin-left: 5%;
+    padding: 1%;
+     */
+    text-align: center; 
+    color: rgb(33, 14, 138);
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color:rgb(224, 144, 184) ;
+    transition: all 1s;
+    
+} 
+
+
+    /* centrar el menú */
+    
+ 
+ .menu:hover {
+    background-color:rgb(53, 197, 241);
+    color: rgb(39, 5, 71);
+    transform: scale(2);
+    
+}
+
+
+.seccion-productos{
+    color: rgb(224, 144, 184);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.todas-las-remeras{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.boton-comprar-2{
+    font-weight: bolder;
+    border-radius: 5px; 
+    padding: 5px 5px;
+    color: rgb(33, 14, 138);
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color:rgb(224, 144, 184) ;
+    border: none;
+} 
+
+
+
+.prueba-flexbox{
+    /* margin-left: 390px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 2s;
+    
+}
+
+.prueba-flexbox:hover{
+    transform: scale(1.1);
+    
+}
+
+.detalle-productos{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+
+/* .mi-carousel {
+    height: 80vh;
+    overflow: hidden;
+  } */
+  
+.mi-carousel{
+    padding: 5%;  
+    height: 150vh;
+}
+
+.mi-carousel .imagenes {
+    height: 100%;
+}
+
+/* .imagenes .foto-carousel {
+    height: 80%;
+  } */
+  
+
+.seccion-foto-carrousel{
+    margin-top: 2%;
+    padding: 2%;
+    text-align: center;
+     
+}
+
+.carrousel1{
+    box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    -webkit-box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    -moz-box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    transition: all 2s;
+   
+}
+
+.carrousel1:hover{
+    transform: translate(20px, 20px);
+}
+
+.art-on-me{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    /* margin-bottom: 12%; */
+
+}
+
+.best-sellers{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-align: center;
+   
+    
+}
+
+
+  .imagenes-best-sellers {
+    /* background-image: url("/imagenes/fondo.PNG"); */
+    width: 100%;
+    text-align: center;
+  }
+  .imagenes-best-sellers div {
+    display: inline-block;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+   
+
+  } 
+
+ 
+
+
+
+.ver-mas{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ver-mas:hover{
+    background-color:rgb(33, 14, 138);
+    color: rgb(224, 144, 184);
+}
+
+
+
+.seccion-locales{
+    color: rgb(33, 14, 138);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+}
+
+.fondo-rosa{
+    background-color:rgb(224, 144, 184); 
+}
+
+
+.flexbox-locales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.flexbox-locales div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.recoleta{
+    color: rgb(33, 14, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.vilo{
+    color: rgb(33, 14, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.carilo{
+    color: rgb(33, 14, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.tamaño-mapa{
+    width: 100%;
+}
+
+.seccion-sobre-nosotras{
+    color: rgb(224, 144, 184);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+}
+ 
+
+.mery-coqui {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+    
+
+
+ .sobre-nosotras-1{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;   
+ }
+
+
+ .sobre-nosotras-2{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    transition: all 1s;
+   
+    
+ }
+
+ .sobre-nosotras-2:hover{
+    transform: translate(20px, 20px)
+ }
+
+ .seccion-campana{
+    color: rgb(33, 14, 138);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+ }
+
+ .video{
+     width: 20px;
+     height: 20px;
+    
+ }
+
+
+ .seccion-preguntas-frecuentes{
+    color: rgb(224, 144, 184);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+ }
+
+.como-comprar{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+} 
+ .lista-como-comprar{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+ }
+
+ .como-devolver{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+ }
+
+.lista-devolucion{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}
+
+.medios-de-pago{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+.lista-medios-de-pago{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}
+
+.descuentos{
+    color: rgb(224, 144, 184);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.lista-descuentos-financiacion{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}
+
+
+.linea{
+    color: rgb(224, 144, 184);
+   
+}
+
+
+.facebook{
+    width: 2%;
+    border-radius: 20px;
+    margin: 5px;
+
+
+}
+
+.instagram{
+    width: 2%;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+.twitter{
+    width: 2%;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+.whatsapp{
+    width: 2%;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.linea-link{
+    text-decoration: none;
+
+}
+
+
+
+.boton-comprar{
+    font-weight: bolder;
+    border-radius: 5px; 
+    padding: 10px 5px;
+    color: rgb(33, 14, 138);
+    letter-spacing: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color:rgb(224, 144, 184) ;
+    border: none;
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+    
+   
