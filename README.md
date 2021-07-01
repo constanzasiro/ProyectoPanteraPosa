@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **La Pantera Rosa**
 
-<p> Para poder utilizar esta pagina, será necesario ejecutar npm init </p>
+<p> Antes de iniciar el proyecto, será necesario instalar npm init </p>
 
 Saludos!
 
